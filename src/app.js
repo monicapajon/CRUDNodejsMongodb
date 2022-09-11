@@ -1,27 +1,3 @@
-// import express from "express";
-// import exphbs from "express-handlebars";
-// import indexRoutes from "./routes/index.routes";
-
-// const hbs = create({
-//     layoutsDir: path.join(app.get("views"), 'layouts'),
-//     defaultLayout: 'main',
-//     extname: '.hbs',
-// });
-
-// const app = express();
-
-
-// app.set('views', './views');
-
-// app.engine(".hbs",hbs.engine({
-//     extname:".hbs",
-// }));
-
-// //Routes
-// app.use(indexRoutes);
-
-// export default app;
-
 import express from 'express';
 import indexRoutes from './routes/index.routes';
 import { create } from 'express-handlebars';

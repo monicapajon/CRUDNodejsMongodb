@@ -1,12 +1,12 @@
 <form action="/tasks/add" method="post">
 
   <div>
-    <label for="title">write a title:</label>
+    <label for="title">Write a title:</label>
     <input type="text" name="title" placeholder="title" id="title" />
   </div>
 
   <div>
-    <label for="description">description:</label>
+    <label for="description">Description:</label>
     <textarea
       name="description"
       placeholder="description"
@@ -15,6 +15,20 @@
   </div>
 
   <button>Add</button>
-  
+
 </form>
 
+{{!-- <pre>
+  {{tasks}}
+</pre> --}}
+
+<ul>
+  {{#each tasks}}
+    <li>
+      {{title}}
+      <p>{{description}}</p>
+      <button>Edit</button>
+      <button>Delete</button>
+    </li>
+  {{/each}}
+</ul>

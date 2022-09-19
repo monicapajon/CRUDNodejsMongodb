@@ -31,8 +31,14 @@
 ---
 ### Enviroment variables
 Para que funcione ésta aplicación necesitas añadir las siguientes variables de entorno:
-MONGODB_URI
-PORT = 5000
+MONGODB_URI 
+PORT
+
+&nbsp;
+
+---
+### El proyecto corre con "npm run dev" desde la consola. 
+
 
 &nbsp;
 
@@ -63,9 +69,7 @@ PORT = 5000
 - [x] Además se le agregó un botón que permite seleccionar la opción "DONE" (tarea realizada) o "UNDONE" (tarea incompleta).- 
 &nbsp;
 
-
-<p align="">🔗 Link al proyecto deployado: <a href="https://taskNotepad.netlify.app">Task Notepad</a></p>
-  
+ 
 &nbsp;
 
 ``` 

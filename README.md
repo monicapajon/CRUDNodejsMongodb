@@ -64,7 +64,7 @@
 &nbsp;
 
 ``` 
-                             📝 Contenido
+                                📝 Contenido
 ```
    
 &nbsp;
